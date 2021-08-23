@@ -146,10 +146,10 @@ describe('logical operators - types and syntax - day 3', () => {
     });
 
     test('logical and', function(){
-        expect(a || b).toEqual( /* YOUR ANSWER HERE */ );
-        expect(b || c).toEqual( /* YOUR ANSWER HERE */ );
-        expect(c || d).toEqual( /* YOUR ANSWER HERE */ );
-        expect(d || e).toEqual( /* YOUR ANSWER HERE */ );
+        expect(a && b).toEqual( /* YOUR ANSWER HERE */ );
+        expect(b && c).toEqual( /* YOUR ANSWER HERE */ );
+        expect(c && d).toEqual( /* YOUR ANSWER HERE */ );
+        expect(d && e).toEqual( /* YOUR ANSWER HERE */ );
     });
 
     test('combined expressions', function(){
